@@ -10,7 +10,7 @@ import { TotalPriceItems } from '../Functions/secondaryFunction';
 import { useChoices } from '../Hooks/useChoices';
 import { Choices } from './Choices';
 
-const Overlay = styled.div`
+export const Overlay = styled.div`
     position: fixed;
     display: flex;
     justify-content: center;
