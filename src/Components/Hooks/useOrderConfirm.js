@@ -1,7 +1,7 @@
-// import { useState } from "react";
+import { useState } from "react";
 
-// export const useOrderConfirm = () => {
-//     const [openOrderConfirm, setopenOrderConfirm] = useState(false);
+export const useOrderConfirm = () => {
+    const [openOrderConfirm, setOpenOrderConfirm] = useState(false);
 
-//     return {openOrderConfirm, setopenOrderConfirm};
-// }
+    return {openOrderConfirm, setOpenOrderConfirm};
+}
